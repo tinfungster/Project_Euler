@@ -7,6 +7,8 @@ print(0.5*((333*1002)+(199*1000)-(66*1005)))
 
 # The second way
 # I am defining a function to sum up all of the multiples of 3 and 5.
+# I did not finish it because it did not work.
+
 def sum():
     # The multiples have to below 1000, they are between 1 and 1000 (including 1)
     Number = range(1, 1000)
@@ -31,7 +33,7 @@ def sum():
 
 sum()
 
-# A third way I found on Project Euler Website
+# A third way I found on Project Euler Website that works.
 a = range(1000)
 count = 0
 for i in a:
